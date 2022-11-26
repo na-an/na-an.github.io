@@ -71,6 +71,45 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-CS106B-note" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/11/26/CS106B-note/" class="article-date">
+  <time class="dt-published" datetime="2022-11-26T09:10:00.000Z" itemprop="datePublished">2022-11-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/11/26/CS106B-note/">CS106B note</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id="指针和数组"><a href="#指针和数组" class="headerlink" title="指针和数组"></a>指针和数组</h3><p>指向结构和对象的指针<br>pp-&gt;getX() 相当于 (*pp).getX()</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/11/26/CS106B-note/" data-id="claxqgup10000bwvj4agt4blu" data-title="CS106B note" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-Markdown" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/11/23/Markdown/" class="article-date">
@@ -93,17 +132,24 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p><a href="#1"><sup>1</sup></a></p>
+        <h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p>引用区</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">&lt;sup&gt;1&lt;/sup&gt;</span>](<span class="link">#1</span>)</span><br></pre></td></tr></table></figure>
+
+<p>参考区</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;1&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> [<span class="string">1</span>] [<span class="string">谷歌学术</span>](<span class="link">https://scholar.google.com/</span>)</span><br></pre></td></tr></table></figure>
+
+<p>显示效果：</p>
+<p><a href="#1"><sup>1</sup></a></p>
 <div id="1"></div>
 
 <ul>
-<li>[1] <a target="_blank" rel="noopener" href="http://xueshu.baidu.com/">百度学术</a></li>
+<li>[1] <a target="_blank" rel="noopener" href="https://scholar.google.com/">谷歌学术</a></li>
 </ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/23/Markdown/" data-id="clats769f0000f8vj30v11xav" data-title="Markdown" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/11/23/Markdown/" data-id="claw8xnl70001movjaxtdbp1y" data-title="Markdown" class="article-share-link">Share</a>
       
       
       
@@ -138,10 +184,10 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h3 id="OpenFOAM"><a href="#OpenFOAM" class="headerlink" title="OpenFOAM"></a>OpenFOAM</h3><p>Install general packages for OpenFOAM</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev</span><br></pre></td></tr></table></figure>
 
 <p>其中包含openMPI的安装</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">libopenmpi-dev openmpi-bin</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">libopenmpi-dev openmpi-bin</span><br></pre></td></tr></table></figure>
 
 
 <p>OpenFOAM的描述 <a href="#1"><sup>1</sup></a><br>This section describes how to run OpenFOAM in parallel on distributed processors. The method of parallel computing used by OpenFOAM is known as domain decomposition, in which the geometry and associated fields are broken into pieces and allocated to separate processors for solution. The process of parallel computation involves: decomposition of mesh and fields; running the application in parallel; and, post-processing the decomposed case as described in the following sections. The parallel running uses the public domain <em><strong>openMPI</strong></em> implementation of the standard message passing interface (MPI) by default, although other libraries can be used.  </p>
@@ -149,7 +195,7 @@
 <p>MPI 比大多数并行框架要更底层（比如 Hadoop）</p>
 <p>OpenFOAM 使用的并行计算方法为计算域分解法。在这个方法中，几何和附属场被拆分为单独的块，每个块用单独的cpu 来进行计算。<a href="#2"><sup>2</sup></a></p>
 <h3 id="openMPI"><a href="#openMPI" class="headerlink" title="openMPI"></a>openMPI</h3><p>查询版本信息</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mpirun --version</span><br><span class="line">mpirun (Open MPI) 4.0.3</span><br><span class="line">mpiexec --version</span><br><span class="line">mpiexec (OpenRTE) 4.0.3</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mpirun --version</span><br><span class="line">mpirun (Open MPI) 4.0.3</span><br><span class="line">mpiexec --version</span><br><span class="line">mpiexec (OpenRTE) 4.0.3</span><br></pre></td></tr></table></figure>
 
 <p>mpirun (Open MPI) 4.0.3</p>
 <p>Report bugs to <a target="_blank" rel="noopener" href="http://www.open-mpi.org/community/help/">http://www.open-mpi.org/community/help/</a></p>
@@ -170,7 +216,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/23/parallel/" data-id="clatq52mk0000kcvj5css1tpb" data-title="parallel" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/11/23/parallel/" data-id="claw8xnlb0005movj8r8re1s2" data-title="parallel" class="article-share-link">Share</a>
       
       
       
@@ -204,14 +250,17 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p>post_asset_folder 改为 true， 添加marked  </p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">prependRoot:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">postAsset:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+        <h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p>修改配置文件 _config.yml，post_asset_folder 改为 true， 添加marked </p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">prependRoot:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">postAsset:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="代码去掉行号"><a href="#代码去掉行号" class="headerlink" title="代码去掉行号"></a>代码去掉行号</h3><p>修改配置文件_config.yml，line_number: true 改成 false  </p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">tab_replace:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">hljs:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/11/how-to-use-Hexo/" data-id="clae27x4s0003asvj3j6zdz0y" data-title="how to use Hexo" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/11/11/how-to-use-Hexo/" data-id="claw8xnl90003movj0ruqf52s" data-title="how to use Hexo" class="article-share-link">Share</a>
       
       
       
@@ -246,7 +295,7 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p><img src="/2022/11/10/Latex-flow-chart/example.png" alt="案例"></p>
-<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">\documentclass</span>&#123;ctexart&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\usepackage</span>[all]&#123;genealogytree&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\begin</span>&#123;document&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\begin</span>&#123;tikzpicture&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\genealogytree</span>[timeflow = left,</span><br><span class="line">processing = tcolorbox,</span><br><span class="line">level size = 2.5cm, node size from = 5mm to 4cm,</span><br><span class="line">box = &#123;size=small, halign=center, valign=center, fontupper=<span class="keyword">\small</span><span class="keyword">\sffamily</span>&#125;,</span><br><span class="line">highlight/.style = &#123;pivot,box=&#123;colback=yellow!20, no shadow, fuzzy halo&#125;&#125;,</span><br><span class="line">]&#123;</span><br><span class="line">parent&#123;</span><br><span class="line">    g&#123;A&#125;</span><br><span class="line">    p&#123;1&#125;</span><br><span class="line">    p&#123;2&#125;</span><br><span class="line">    p&#123;3&#125;</span><br><span class="line">    p&#123;4&#125;</span><br><span class="line">    p&#123;5&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\end</span>&#123;tikzpicture&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\end</span>&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\documentclass</span>&#123;ctexart&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\usepackage</span>[all]&#123;genealogytree&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\begin</span>&#123;document&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\begin</span>&#123;tikzpicture&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\genealogytree</span>[timeflow = left,</span><br><span class="line">processing = tcolorbox,</span><br><span class="line">level size = 2.5cm, node size from = 5mm to 4cm,</span><br><span class="line">box = &#123;size=small, halign=center, valign=center, fontupper=<span class="keyword">\small</span><span class="keyword">\sffamily</span>&#125;,</span><br><span class="line">highlight/.style = &#123;pivot,box=&#123;colback=yellow!20, no shadow, fuzzy halo&#125;&#125;,</span><br><span class="line">]&#123;</span><br><span class="line">parent&#123;</span><br><span class="line">    g&#123;A&#125;</span><br><span class="line">    p&#123;1&#125;</span><br><span class="line">    p&#123;2&#125;</span><br><span class="line">    p&#123;3&#125;</span><br><span class="line">    p&#123;4&#125;</span><br><span class="line">    p&#123;5&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\end</span>&#123;tikzpicture&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\end</span>&#123;document&#125;</span><br></pre></td></tr></table></figure>
 
 <p>参考教程</p>
 <p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/2d01d5eaaa77">https://www.jianshu.com/p/2d01d5eaaa77</a></p>
@@ -257,7 +306,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/10/Latex-flow-chart/" data-id="clae27x4f0000asvj879renlp" data-title="Latex flow chart" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/11/10/Latex-flow-chart/" data-id="claw8xnl10000movj73kq9uu0" data-title="Latex flow chart" class="article-share-link">Share</a>
       
       
       
@@ -298,19 +347,19 @@
 <h3 id="github"><a href="#github" class="headerlink" title="github"></a>github</h3><p>首先建立同名仓库</p>
 <p>github → settings → SSH and GPG keys 添加本地的 id_rsa.pub</p>
 <p>本地操作</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;邮箱&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;用户名&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;邮箱&quot;</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>在文件夹内右键 <code>Git Bash Here</code>  </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">npm i hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo</span><br><span class="line">hexo init</span><br><span class="line">npm install</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">npm i hexo-deployer-git</span><br></pre></td></tr></table></figure>
 
 <p>修改<code>_config.yml</code>配置文件</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://github.com/na-an/na-an.github.io/</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://github.com/na-an/na-an.github.io/</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
 
 <p>基本操作</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// 清除缓存，每次修改配置文件后都要执行该命令</span><br><span class="line">hexo clean  </span><br><span class="line">// 生成静态网页</span><br><span class="line">hexo g  </span><br><span class="line">// 本地预览</span><br><span class="line">hexo s  </span><br><span class="line">// 向仓库推送文件</span><br><span class="line">hexo d  </span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">// 清除缓存，每次修改配置文件后都要执行该命令</span><br><span class="line">hexo clean  </span><br><span class="line">// 生成静态网页</span><br><span class="line">hexo g  </span><br><span class="line">// 本地预览</span><br><span class="line">hexo s  </span><br><span class="line">// 向仓库推送文件</span><br><span class="line">hexo d  </span><br></pre></td></tr></table></figure>
 
 <p>新建文章，可以进行修改</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;article title&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;article title&quot;</span></span><br></pre></td></tr></table></figure>
 <h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/yaorongke/article/details/119089190">CSDN GitHub Pages + Hexo搭建个人博客网站，史上最全教程</a></p>
 <p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/269420507">知乎 利用Gitee+Hexo搭建个人网站</a></p>
 <p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/35668237">知乎 超详细Hexo+Github博客搭建小白教程</a></p>
@@ -318,7 +367,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/08/build-blog-with-Github-Hexo/" data-id="clae27x4q0002asvj1mr16eah" data-title="Github+Hexo搭建个人博客" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/11/08/build-blog-with-Github-Hexo/" data-id="claw8xnl90002movj6ic0eo1e" data-title="Github+Hexo搭建个人博客" class="article-share-link">Share</a>
       
       
       
@@ -353,23 +402,23 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/08/hello-world/" data-id="clae27x4o0001asvj9zuwflgr" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/11/08/hello-world/" data-id="claw8xnla0004movjfirp4bnn" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
@@ -412,6 +461,10 @@
       <ul>
         
           <li>
+            <a href="/2022/11/26/CS106B-note/">CS106B note</a>
+          </li>
+        
+          <li>
             <a href="/2022/11/23/Markdown/">Markdown</a>
           </li>
         
@@ -425,10 +478,6 @@
         
           <li>
             <a href="/2022/11/10/Latex-flow-chart/">Latex flow chart</a>
-          </li>
-        
-          <li>
-            <a href="/2022/11/08/build-blog-with-Github-Hexo/">Github+Hexo搭建个人博客</a>
           </li>
         
       </ul>

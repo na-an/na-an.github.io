@@ -6,12 +6,12 @@
   
   <title>parallel | Na Jian</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="OpenFOAMInstall general packages for OpenFOAM 1sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurse">
+  <meta name="description" content="OpenFOAMInstall general packages for OpenFOAM sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses">
 <meta property="og:type" content="article">
 <meta property="og:title" content="parallel">
 <meta property="og:url" content="http://example.com/2022/11/23/parallel/index.html">
 <meta property="og:site_name" content="Na Jian">
-<meta property="og:description" content="OpenFOAMInstall general packages for OpenFOAM 1sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurse">
+<meta property="og:description" content="OpenFOAMInstall general packages for OpenFOAM sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-11-23T14:11:23.000Z">
 <meta property="article:modified_time" content="2022-11-23T16:42:00.937Z">
@@ -96,10 +96,10 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h3 id="OpenFOAM"><a href="#OpenFOAM" class="headerlink" title="OpenFOAM"></a>OpenFOAM</h3><p>Install general packages for OpenFOAM</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt-get install flex libfl-dev bison zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev</span><br></pre></td></tr></table></figure>
 
 <p>其中包含openMPI的安装</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">libopenmpi-dev openmpi-bin</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">libopenmpi-dev openmpi-bin</span><br></pre></td></tr></table></figure>
 
 
 <p>OpenFOAM的描述 <a href="#1"><sup>1</sup></a><br>This section describes how to run OpenFOAM in parallel on distributed processors. The method of parallel computing used by OpenFOAM is known as domain decomposition, in which the geometry and associated fields are broken into pieces and allocated to separate processors for solution. The process of parallel computation involves: decomposition of mesh and fields; running the application in parallel; and, post-processing the decomposed case as described in the following sections. The parallel running uses the public domain <em><strong>openMPI</strong></em> implementation of the standard message passing interface (MPI) by default, although other libraries can be used.  </p>
@@ -107,7 +107,7 @@
 <p>MPI 比大多数并行框架要更底层（比如 Hadoop）</p>
 <p>OpenFOAM 使用的并行计算方法为计算域分解法。在这个方法中，几何和附属场被拆分为单独的块，每个块用单独的cpu 来进行计算。<a href="#2"><sup>2</sup></a></p>
 <h3 id="openMPI"><a href="#openMPI" class="headerlink" title="openMPI"></a>openMPI</h3><p>查询版本信息</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mpirun --version</span><br><span class="line">mpirun (Open MPI) 4.0.3</span><br><span class="line">mpiexec --version</span><br><span class="line">mpiexec (OpenRTE) 4.0.3</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mpirun --version</span><br><span class="line">mpirun (Open MPI) 4.0.3</span><br><span class="line">mpiexec --version</span><br><span class="line">mpiexec (OpenRTE) 4.0.3</span><br></pre></td></tr></table></figure>
 
 <p>mpirun (Open MPI) 4.0.3</p>
 <p>Report bugs to <a target="_blank" rel="noopener" href="http://www.open-mpi.org/community/help/">http://www.open-mpi.org/community/help/</a></p>
@@ -128,7 +128,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/23/parallel/" data-id="clatq52mk0000kcvj5css1tpb" data-title="parallel" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/11/23/parallel/" data-id="claw8xnlb0005movj8r8re1s2" data-title="parallel" class="article-share-link">Share</a>
       
       
       
@@ -188,6 +188,10 @@
       <ul>
         
           <li>
+            <a href="/2022/11/26/CS106B-note/">CS106B note</a>
+          </li>
+        
+          <li>
             <a href="/2022/11/23/Markdown/">Markdown</a>
           </li>
         
@@ -201,10 +205,6 @@
         
           <li>
             <a href="/2022/11/10/Latex-flow-chart/">Latex flow chart</a>
-          </li>
-        
-          <li>
-            <a href="/2022/11/08/build-blog-with-Github-Hexo/">Github+Hexo搭建个人博客</a>
           </li>
         
       </ul>
