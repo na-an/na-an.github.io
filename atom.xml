@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Na Jian</title>
+  
+  
+  <link href="https://na-an.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://na-an.github.io/"/>
+  <updated>2022-12-10T10:57:06.000Z</updated>
+  <id>https://na-an.github.io/</id>
+  
+  <author>
+    <name>Na Jian</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://na-an.github.io/2023/02/08/hello-world/"/>
+    <id>https://na-an.github.io/2023/02/08/hello-world/</id>
+    <published>2023-02-08T08:06:04.711Z</published>
+    <updated>2022-12-10T10:57:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SIMPLE</title>
+    <link href="https://na-an.github.io/2023/02/03/SIMPLE/"/>
+    <id>https://na-an.github.io/2023/02/03/SIMPLE/</id>
+    <published>2023-02-03T04:17:29.000Z</published>
+    <updated>2023-02-08T03:22:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>An introduction to computational fluid dynamics: the finite volume method<br>Chapter six</p><p><img src="/2023/02/03/SIMPLE/staggered_grid.png" alt="staggered grid"></p><p><a href="https://zhuanlan.zhihu.com/p/390914441">https://zhuanlan.zhihu.com/p/390914441</a><br><a href="https://zhuanlan.zhihu.com/p/390914441">https://zhuanlan.zhihu.com/p/390914441</a></p><p>Numerical methods for partial differential equations: finite difference and finite volume methods</p><p>计算流程</p><p>边界条件</p><p>出口未知</p><p>滑移壁面边界条件：<br>壁面<code>法向速度</code>为零，<code>切向速度</code>可以用场内值做单边插值得到</p><p>无滑移壁面边界条件：<br>流固边界处速度<code>法向分量</code>和<code>切向分量</code>均为零</p><p><a href="https://www.cfd-china.com/topic/3945/">https://www.cfd-china.com/topic/3945/</a></p><p><a href="https://www.cfd-china.com/topic/948/">https://www.cfd-china.com/topic/948/</a></p><p><img src="/2023/02/03/SIMPLE/Momentum.png" alt="动量方程数量级分析"></p><p>参考书目<br>数值传热学<br>An introduction to computational fluid dynamics: the finite volume method<br>Sandip 《Numerical methods for partial differential equations: finite difference and finite volume methods》<br>Sandip 教学视频<br>Patanker 《numerical heat transfer and fluid flow》</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;An introduction to computational fluid dynamics: the finite volume method&lt;br&gt;Chapter six&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2023/02/03/SIMPLE/staggered_gr</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>plot</title>
+    <link href="https://na-an.github.io/2023/02/02/plot/"/>
+    <id>https://na-an.github.io/2023/02/02/plot/</id>
+    <published>2023-02-02T03:03:02.000Z</published>
+    <updated>2023-02-03T02:49:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>C++ 可视化</p><p>C++可视化库推荐<br><a href="https://blog.csdn.net/chyuanrufeng/article/details/102808715">https://blog.csdn.net/chyuanrufeng/article/details/102808715</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;C++ 可视化&lt;/p&gt;
+&lt;p&gt;C++可视化库推荐&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/chyuanrufeng/article/details/102808715&quot;&gt;https://blog.csdn.net/chyuanrufeng/art</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PDE</title>
+    <link href="https://na-an.github.io/2023/01/24/PDE/"/>
+    <id>https://na-an.github.io/2023/01/24/PDE/</id>
+    <published>2023-01-24T09:51:34.000Z</published>
+    <updated>2023-01-24T09:51:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>偏微分方程 浙江大学</p><p>Courant-Friedrichs-Lewy 准则</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;偏微分方程 浙江大学&lt;/p&gt;
+&lt;p&gt;Courant-Friedrichs-Lewy 准则&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM study</title>
+    <link href="https://na-an.github.io/2023/01/20/OpenFOAM-study/"/>
+    <id>https://na-an.github.io/2023/01/20/OpenFOAM-study/</id>
+    <published>2023-01-20T08:59:36.000Z</published>
+    <updated>2023-01-20T09:55:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.cfd-china.com/topic/580/openfoam%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8%E5%BB%BA%E8%AE%AE-2020%E5%B9%B4%E6%9B%B4%E6%96%B0%E7%89%88?_=1674190176266&amp;lang=zh-CN">https://www.cfd-china.com/topic/580/openfoam%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8%E5%BB%BA%E8%AE%AE-2020%E5%B9%B4%E6%9B%B4%E6%96%B0%E7%89%88?_=1674190176266&amp;lang=zh-CN</a></p><p><img src="/2023/01/20/OpenFOAM-study/head.png" alt="头文件"></p><p><a href="https://forum.cfdac.com/tag/codeoftheweek">https://forum.cfdac.com/tag/codeoftheweek</a></p><p>数值传热学</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.cfd-china.com/topic/580/openfoam%E5%88%9D%E7%BA%A7%E5%85%A5%E9%97%A8%E5%BB%BA%E8%AE%AE-2020%E5%B9%B4%E6%9B%B4%E6%96%</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM others</title>
+    <link href="https://na-an.github.io/2023/01/16/OpenFOAM-others/"/>
+    <id>https://na-an.github.io/2023/01/16/OpenFOAM-others/</id>
+    <published>2023-01-16T10:11:10.000Z</published>
+    <updated>2023-01-16T13:02:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一些OpenFOAM自带的有用小工具<br><a href="https://blog.csdn.net/CloudBird07/article/details/105325409">https://blog.csdn.net/CloudBird07/article/details/105325409</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;一些OpenFOAM自带的有用小工具&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/CloudBird07/article/details/105325409&quot;&gt;https://blog.csdn.net/CloudBird07/article/det</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM fvSchemes</title>
+    <link href="https://na-an.github.io/2023/01/14/OpenFOAM-fvSchemes/"/>
+    <id>https://na-an.github.io/2023/01/14/OpenFOAM-fvSchemes/</id>
+    <published>2023-01-14T08:53:17.000Z</published>
+    <updated>2023-01-23T10:41:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://cpp.openfoam.org/v10/">https://cpp.openfoam.org/v10/</a></p><p><a href="https://www.openfoam.com/documentation/guides/latest/doc/guide-schemes-divergence.html">https://www.openfoam.com/documentation/guides/latest/doc/guide-schemes-divergence.html</a></p><p><a href="https://www.openfoam.com/documentation/guides/v2112/doc/guide-schemes-divergence-example.html">https://www.openfoam.com/documentation/guides/v2112/doc/guide-schemes-divergence-example.html</a></p><p><a href="https://doc.cfd.direct/openfoam/user-guide-v10/fvschemes">https://doc.cfd.direct/openfoam/user-guide-v10/fvschemes</a></p><p><a href="https://www.openfoam.com/documentation/guides/latest/doc/guide-schemes-divergence-deshybrid.html">https://www.openfoam.com/documentation/guides/latest/doc/guide-schemes-divergence-deshybrid.html</a></p><p>divSchemes</p><h3 id="离散格式的性能的对比"><a href="#离散格式的性能的对比" class="headerlink" title="离散格式的性能的对比"></a>离散格式的性能的对比</h3><h4 id="中心差分"><a href="#中心差分" class="headerlink" title="中心差分"></a>中心差分</h4><h4 id="一阶迎风"><a href="#一阶迎风" class="headerlink" title="一阶迎风"></a>一阶迎风</h4><p>离散系数恒大于零，不会引起解的震荡</p><p>二阶迎风，三阶迎风是否稳定？<br>二阶迎风绝对稳定？仍有假扩散问题。</p><p>乘方格式 power-law scheme<br>混合格式<br>指数格式</p><p>迎风格式和混合格式只有一阶计算精度<br>中心差分格式具有二阶精度，但它的稳定性很差，也不满足输运特性。<br><a href="https://www.jishulink.com/post/267426">https://www.jishulink.com/post/267426</a><br><img src="/2023/01/14/OpenFOAM-fvSchemes/%E7%A6%BB%E6%95%A3%E6%A0%BC%E5%BC%8F%E5%AF%B9%E6%AF%94.png" alt="离散格式对比"></p><p>如何实现幂律或混合方案？<br><a href="https://www.cfd-online.com/Forums/openfoam-programming-development/88078-how-implement-power-law-hybrid-schemes.html">https://www.cfd-online.com/Forums/openfoam-programming-development/88078-how-implement-power-law-hybrid-schemes.html</a><br>Upwind scheme: this scheme impose artificial dispersion (false diffusion) which Leeds to unrealistic solution.<br>Linear scheme (central differencing): causes oscillating answer for high Reynolds numbers and unrealistic solution.</p><p>Why you should not use ‘Hybrid’, ‘Power-Law’ or related exponential schemes for convective modelling—there are much better alternatives</p><p><a href="https://www.cfd-online.com/Forums/main/794-power-law-scheme.html">https://www.cfd-online.com/Forums/main/794-power-law-scheme.html</a></p><p>【薛定谔的alpha狗<br>】有限体积法（9）——高阶差分格式：QUICK格式<br><a href="https://blog.csdn.net/weixin_42562856/article/details/107323235">https://blog.csdn.net/weixin_42562856/article/details/107323235</a></p><p>计算流体力学常用离散格式的对比与讨论<br><a href="http://cmfd.com.cn/index.php?s=bbs&amp;c=show&amp;id=2284">http://cmfd.com.cn/index.php?s=bbs&amp;c=show&amp;id=2284</a></p><p>慎用高阶格式<br><a href="https://www.cnblogs.com/Xiwang-Sun/p/16453482.html">https://www.cnblogs.com/Xiwang-Sun/p/16453482.html</a></p><h3 id="假扩散"><a href="#假扩散" class="headerlink" title="假扩散"></a>假扩散</h3><p>对流项的高阶迎风型格式<br><a href="http://staff.ustc.edu.cn/~humaobin/course/cht/ppt/5.5.pdf">http://staff.ustc.edu.cn/~humaobin/course/cht/ppt/5.5.pdf</a><br><a href="http://staff.ustc.edu.cn/~humaobin/course/cht/ppt/5.0.pdf">http://staff.ustc.edu.cn/~humaobin/course/cht/ppt/5.0.pdf</a></p><p>数值传热学 5.5 </p><p>一阶迎风，二阶导数项<br>扩散项是二阶导数<br>一维非稳态对流方程，采用显示、迎风，二阶截断误差，离散方程实际上是对流-扩散问题</p><h3 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h3><p>高分辨率组合格式 TVD 格式</p><p>blended 混合格式<br><img src="/2023/01/14/OpenFOAM-fvSchemes/blended.png" alt="blended"><br><a href="https://cpp.openfoam.org/v7/classFoam_1_1blendedSchemeBase.html">https://cpp.openfoam.org/v7/classFoam_1_1blendedSchemeBase.html</a></p><p>blended<br>linear&#x2F;upwind blended differencing scheme.</p><p>Gauss CoBlended</p><p>LUST: Linear-upwind stabilised transport.<br>src&#x2F;finiteVolume&#x2F;interpolation&#x2F;surfaceInterpolation&#x2F;schemes&#x2F;</p><p>makeSurfaceInterpolationTypeScheme</p><p><a href="https://openfoamwiki.net/index.php/OpenFOAM_guide/SurfaceInterpolation">https://openfoamwiki.net/index.php/OpenFOAM_guide/SurfaceInterpolation</a></p><p><a href="https://openfoamwiki.net/index.php/OpenFOAM_guide">https://openfoamwiki.net/index.php/OpenFOAM_guide</a></p><p><a href="https://openfoamwiki.net/index.php/Main_Page">https://openfoamwiki.net/index.php/Main_Page</a></p><p><a href="https://www.zybuluo.com/daidezhi/note/389113">https://www.zybuluo.com/daidezhi/note/389113</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">template&lt;class Type&gt;</span><br><span class="line">class LUST</span><br><span class="line">:</span><br><span class="line">    public linearUpwind&lt;Type&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">template&lt;class Type&gt;</span><br><span class="line">class linearUpwind</span><br><span class="line">:</span><br><span class="line">    public upwind&lt;Type&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">template&lt;class Type&gt;</span><br><span class="line">class upwind</span><br><span class="line">:</span><br><span class="line">    public limitedSurfaceInterpolationScheme&lt;Type&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">template&lt;class Type&gt;</span><br><span class="line">class limitedSurfaceInterpolationScheme</span><br><span class="line">:</span><br><span class="line">    public surfaceInterpolationScheme&lt;Type&gt;</span><br></pre></td></tr></table></figure><p>src&#x2F;finiteVolume&#x2F;interpolation&#x2F;surfaceInterpolation&#x2F;schemes&#x2F;linear&#x2F;linear.H</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">template&lt;class Type&gt;</span><br><span class="line">class linear</span><br><span class="line">:</span><br><span class="line">    public surfaceInterpolationScheme&lt;Type&gt;</span><br></pre></td></tr></table></figure><p><a href="https://www.cfd-online.com/Forums/openfoam-programming-development/236834-face-pressure-interpolation-scheme-based-linear-interpolation.html">https://www.cfd-online.com/Forums/openfoam-programming-development/236834-face-pressure-interpolation-scheme-based-linear-interpolation.html</a></p><p>参考tutorial<br>OFtutorial15_discretisation&#x2F;OFtutorial15.H</p><p>makeSurfaceInterpolationScheme</p><h3 id="格式汇总"><a href="#格式汇总" class="headerlink" title="格式汇总"></a>格式汇总</h3><p>对流格式基于<code>高斯积分</code>，需要从网格单元<code>体心</code>处向<code>面心</code>处插值<br><img src="/2023/01/14/OpenFOAM-fvSchemes/1Dmesh.png" alt="一维网格示意图"></p><p>格式为 Gauss <interpolationScheme></p><p>$$<br>\int_w^e\left(\frac{\partial \phi}{\partial x}\right) \mathrm{d} x&#x3D;\phi_e-\phi_w<br>$$</p><p>$\phi_e$ 和 $\phi_w$ 从体心获得</p><h3 id="div"><a href="#div" class="headerlink" title="div"></a>div</h3><p>src&#x2F;finiteVolume&#x2F;finiteVolume&#x2F;fvm&#x2F;fvmDiv.C</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> <span class="title class_">Type</span>&gt;</span><br><span class="line">tmp&lt;fvMatrix&lt;Type&gt;&gt;</span><br><span class="line"><span class="built_in">div</span></span><br><span class="line">(</span><br><span class="line">    <span class="type">const</span> surfaceScalarField&amp; flux,</span><br><span class="line">    <span class="type">const</span> GeometricField&lt;Type, fvPatchField, volMesh&gt;&amp; vf,</span><br><span class="line">    <span class="type">const</span> word&amp; name</span><br><span class="line">)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> fv::convectionScheme&lt;Type&gt;::<span class="built_in">New</span></span><br><span class="line">    (</span><br><span class="line">        vf.<span class="built_in">mesh</span>(),</span><br><span class="line">        flux,</span><br><span class="line">        vf.<span class="built_in">mesh</span>().<span class="built_in">divScheme</span>(name)</span><br><span class="line">    )().<span class="built_in">fvmDiv</span>(flux, vf);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>fv::convectionScheme()</p><p>src&#x2F;finiteVolume&#x2F;finiteVolume&#x2F;convectionSchemes&#x2F;convectionScheme&#x2F;convectionScheme.H</p><p>fvmDiv(flux, vf)<br>return cstrIter()(mesh, faceFlux, schemeData);</p><p>src&#x2F;finiteVolume&#x2F;finiteVolume&#x2F;convectionSchemes&#x2F;gaussConvectionScheme&#x2F;gaussConvectionScheme.H</p><p><a href="https://forum.cfdac.com/t/topic/611">https://forum.cfdac.com/t/topic/611</a><br><a href="https://forum.cfdac.com/tag/codeoftheweek">https://forum.cfdac.com/tag/codeoftheweek</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://cpp.openfoam.org/v10/&quot;&gt;https://cpp.openfoam.org/v10/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.openfoam.com/documentation/guides/l</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>dynamicMesh</title>
+    <link href="https://na-an.github.io/2023/01/13/dynamicMesh/"/>
+    <id>https://na-an.github.io/2023/01/13/dynamicMesh/</id>
+    <published>2023-01-13T04:10:33.000Z</published>
+    <updated>2023-01-16T14:57:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>constant&#x2F;dynamicMeshDict</p><p>初始OpenFOAM动网格<br><a href="https://zhuanlan.zhihu.com/p/394740427">https://zhuanlan.zhihu.com/p/394740427</a></p><p>OpenFOAM自适应网格加密算例<br><a href="https://zhuanlan.zhihu.com/p/482791084">https://zhuanlan.zhihu.com/p/482791084</a></p><p>在OpenFOAM中实现动网格与流场的信息交互<br><a href="https://zhuanlan.zhihu.com/p/555931477">https://zhuanlan.zhihu.com/p/555931477</a><br>自适应关键词<br>dynamicRefineFvMesh</p><p><img src="/2023/01/13/dynamicMesh/dynamicMesh.png" alt="dynamicMesh"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find . -name dynamicMeshDict</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find $FOAM_TUTORIALS -type f | xargs grep -sl &#x27;dynamicRefineFvMesh&#x27;</span><br></pre></td></tr></table></figure><p><a href="https://holzmann-cfd.com/community/training-cases/adaptive-mesh-refinement">https://holzmann-cfd.com/community/training-cases/adaptive-mesh-refinement</a></p><p>interDyMFoam  已经被移除了</p><p><a href="https://github.com/krajit/dynamicRefine2DFvMesh.git">https://github.com/krajit/dynamicRefine2DFvMesh.git</a><br>2D 自适应，需要额外安装</p><p>头文件</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;constant&amp;#x2F;dynamicMeshDict&lt;/p&gt;
+&lt;p&gt;初始OpenFOAM动网格&lt;br&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/394740427&quot;&gt;https://zhuanlan.zhihu.com/p/39474</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux</title>
+    <link href="https://na-an.github.io/2023/01/13/Linux/"/>
+    <id>https://na-an.github.io/2023/01/13/Linux/</id>
+    <published>2023-01-13T03:31:28.000Z</published>
+    <updated>2023-01-15T02:26:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.runoob.com/linux/linux-comm-tar.html">https://www.runoob.com/linux/linux-comm-tar.html</a></p><h3 id="文件-x2F-文件夹"><a href="#文件-x2F-文件夹" class="headerlink" title="文件&#x2F;文件夹"></a>文件&#x2F;文件夹</h3><p>新建文件夹</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir A</span><br></pre></td></tr></table></figure><p>新建文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch A</span><br></pre></td></tr></table></figure><p>打开文件夹</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xdg-open A</span><br></pre></td></tr></table></figure><p>可执行文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x A</span><br></pre></td></tr></table></figure><p>修改名字</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv A B</span><br></pre></td></tr></table></figure><p>复制并重命名,(-r)代表文件夹操作</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp -r A B</span><br></pre></td></tr></table></figure><p>转到目标文件夹</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd A</span><br></pre></td></tr></table></figure><p>批量修改文件内容<br>sed -i “s&#x2F;oldString&#x2F;newString&#x2F;g”  <code>grep oldString -rl /path</code><br>在当前目录 &#x2F;path 换成 .</p><h3 id="查找"><a href="#查找" class="headerlink" title="查找"></a>查找</h3><p><a href="https://www.runoob.com/linux/linux-comm-find.html">https://www.runoob.com/linux/linux-comm-find.html</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">find . -name <span class="string">&quot;funkySetFieldsDict&quot;</span></span><br><span class="line">find . -name <span class="string">&quot;*.m&quot;</span></span><br></pre></td></tr></table></figure><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget file/web</span><br></pre></td></tr></table></figure><h3 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf file </span><br></pre></td></tr></table></figure><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>内存、cpu使用情况<br><a href="https://blog.csdn.net/we_shell/article/details/36887629">https://blog.csdn.net/we_shell/article/details/36887629</a></p><p>系统监视窗口<br>gnome-system-monitor</p><p>转到挂载的其他硬盘<br>cd media&#x2F;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.runoob.com/linux/linux-comm-tar.html&quot;&gt;https://www.runoob.com/linux/linux-comm-tar.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;文件-x2F-文件夹&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>convection diffusion</title>
+    <link href="https://na-an.github.io/2023/01/12/convection-diffusion/"/>
+    <id>https://na-an.github.io/2023/01/12/convection-diffusion/</id>
+    <published>2023-01-12T06:32:27.000Z</published>
+    <updated>2023-01-16T13:19:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一维对流扩散方程的Dirichlet精确解<br><a href="https://cloud.tencent.com/developer/article/2012325">https://cloud.tencent.com/developer/article/2012325</a></p><p><img src="/2023/01/12/convection-diffusion/special.png" alt="special"></p><p>第五章 对流-扩散方程的离散格式<br><a href="http://gr.xjtu.edu.cn/c/document_library/get_file?folderId=2231676&amp;name=DLFE-79332.pdf">http://gr.xjtu.edu.cn/c/document_library/get_file?folderId=2231676&amp;name=DLFE-79332.pdf</a></p><p>&lt;低Peclet数下剪切流中气溶胶粒子的传质率&gt;<br>10.3878&#x2F;j.issn.1006-9895.1994.01.13</p><h3 id="看，暂时先关"><a href="#看，暂时先关" class="headerlink" title="看，暂时先关"></a>看，暂时先关</h3><p>Navier-Stokes 方程的正则性1：引言（学数学与物理的小伙伴请进）<br><a href="https://zhuanlan.zhihu.com/p/259422910">https://zhuanlan.zhihu.com/p/259422910</a></p><p>CFD入门：一维线性对流方程<br><a href="https://gitee.com/laser2000/CFD_Fundamental">https://gitee.com/laser2000/CFD_Fundamental</a><br><a href="https://zhuanlan.zhihu.com/p/92149491">https://zhuanlan.zhihu.com/p/92149491</a></p><p>一维常系数对流方程的学习——来自流沙公众号<br><a href="https://blog.csdn.net/qq_42000453/article/details/82846034">https://blog.csdn.net/qq_42000453/article/details/82846034</a></p><p>有限体积法（29）对流项离散（10）二维稳态对流问题<br><a href="https://zhuanlan.zhihu.com/p/373252419">https://zhuanlan.zhihu.com/p/373252419</a></p><p>扩散、对流和反应模型中，浓度为什么会出现负值？<br><a href="https://zhuanlan.zhihu.com/p/269891903">https://zhuanlan.zhihu.com/p/269891903</a><br>(有界性)</p><p>提高非线性稳态模型的收敛性<br><a href="http://cn.comsol.com/support/knowledgebase/103">http://cn.comsol.com/support/knowledgebase/103</a></p><p>不同边界条件的收敛要求。<br>进出口都是第一类：Pelect (F&#x2F;D&#x2F;dx）<br>进口第一类，出口第二类。</p><p>Artificial Diffusion | 假扩散<br><a href="https://www.cfd-china.com/topic/2229/artificial-diffusion-%E5%81%87%E6%89%A9%E6%95%A3">https://www.cfd-china.com/topic/2229/artificial-diffusion-%E5%81%87%E6%89%A9%E6%95%A3</a></p><p>一种新的求解对流占优问题的自适应网格细化方法<br><a href="https://pubs.cstam.org.cn/data/article/cjcm/preview/pdf/20190503.pdf">https://pubs.cstam.org.cn/data/article/cjcm/preview/pdf/20190503.pdf</a></p><p>对流扩散方程与 N-S 方程之间有什么联系？<br><a href="https://www.zhihu.com/question/263374306">https://www.zhihu.com/question/263374306</a></p><p>可压双曲 不可压抛物 </p><p>扩散方程 椭圆 Laplace方程(又称调和方程)和Poisson方程</p><p>PDE有限差分方法(10)——边界条件离散方法<br><a href="https://zhuanlan.zhihu.com/p/149680131">https://zhuanlan.zhihu.com/p/149680131</a></p><p>有限体积版本的 SUPG streamline upwind Petrov-Galerkin<br><a href="https://www.cfd-online.com/Forums/main/2428-finite-volume-version-supg.html">https://www.cfd-online.com/Forums/main/2428-finite-volume-version-supg.html</a></p><p>中心差分（CDS），QUICK，上风和MUSCL方案（使用通量限制器）<br><a href="https://www.cfd-online.com/Forums/main/245976-solving-2d-convection-diffusion-equation-using-finite-volume-method-matlab.html">https://www.cfd-online.com/Forums/main/245976-solving-2d-convection-diffusion-equation-using-finite-volume-method-matlab.html</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;一维对流扩散方程的Dirichlet精确解&lt;br&gt;&lt;a href=&quot;https://cloud.tencent.com/developer/article/2012325&quot;&gt;https://cloud.tencent.com/developer/article/201232</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>fvm</title>
+    <link href="https://na-an.github.io/2023/01/11/fvm/"/>
+    <id>https://na-an.github.io/2023/01/11/fvm/</id>
+    <published>2023-01-11T03:39:02.000Z</published>
+    <updated>2023-02-03T04:16:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有限体积法（4）——一维扩散方程数值求解（第二类边界条件）</p><p><a href="https://blog.csdn.net/weixin_42562856/article/details/106838206">https://blog.csdn.net/weixin_42562856/article/details/106838206</a></p><p><a href="https://nht.xjtu.edu.cn/jxzy/szcrx/9.htm">https://nht.xjtu.edu.cn/jxzy/szcrx/9.htm</a></p><p>（CFD）投影法求解二维不可压缩N-S方程<br><a href="https://blog.csdn.net/weixin_43921223/article/details/107485254">https://blog.csdn.net/weixin_43921223/article/details/107485254</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;有限体积法（4）——一维扩散方程数值求解（第二类边界条件）&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/weixin_42562856/article/details/106838206&quot;&gt;https://blog.csdn.net/weix</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Math</title>
+    <link href="https://na-an.github.io/2023/01/07/Math/"/>
+    <id>https://na-an.github.io/2023/01/07/Math/</id>
+    <published>2023-01-07T14:21:00.000Z</published>
+    <updated>2023-01-27T11:17:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><p>Chapter 11 偏微分方程<br><a href="https://bookdown.org/yifei/book/">https://bookdown.org/yifei/book/</a><br><a href="https://bookdown.org/yifei/book/pde.html">https://bookdown.org/yifei/book/pde.html</a></p><p><a href="https://www.shud.xyz/book_nme/modeling.html">https://www.shud.xyz/book_nme/modeling.html</a></p><h3 id="离散"><a href="#离散" class="headerlink" title="离散"></a>离散</h3><p><a href="https://zhuanlan.zhihu.com/p/149680131">https://zhuanlan.zhihu.com/p/149680131</a></p><h3 id="特殊"><a href="#特殊" class="headerlink" title="特殊"></a>特殊</h3><p>第五章 Laplace方程<br><a href="http://www.cms.zju.edu.cn/UploadFiles/AttachFiles/20081230224356870.pdf">http://www.cms.zju.edu.cn/UploadFiles/AttachFiles/20081230224356870.pdf</a></p><p><a href="http://www.cms.zju.edu.cn/">http://www.cms.zju.edu.cn/</a><br>方程 site::<a href="http://www.cms.zju.edu.cn/">http://www.cms.zju.edu.cn/</a></p><p><a href="https://ppwq.net/">https://ppwq.net/</a><br>偏微分方程 浙江大学</p><p>Courant-Friedrichs-Lewy 准则\</p><p>最优化<br><a href="https://www.zhihu.com/question/24791334">https://www.zhihu.com/question/24791334</a><br>Convex Optimization<br><a href="http://faculty.bicmr.pku.edu.cn/~wenzw/optbook.html">http://faculty.bicmr.pku.edu.cn/~wenzw/optbook.html</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;数学&quot;&gt;&lt;a href=&quot;#数学&quot; class=&quot;headerlink&quot; title=&quot;数学&quot;&gt;&lt;/a&gt;数学&lt;/h3&gt;&lt;p&gt;Chapter 11 偏微分方程&lt;br&gt;&lt;a href=&quot;https://bookdown.org/yifei/book/&quot;&gt;https:/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM Matrix</title>
+    <link href="https://na-an.github.io/2023/01/07/OpenFOAM-Matrix/"/>
+    <id>https://na-an.github.io/2023/01/07/OpenFOAM-Matrix/</id>
+    <published>2023-01-07T12:10:13.000Z</published>
+    <updated>2023-01-20T09:53:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>矩阵，对流扩散方程</p><p><a href="https://q8frym1nsp.feishu.cn/docx/FIg5dgAk0oD0o9xo8bpc9knonUf">https://q8frym1nsp.feishu.cn/docx/FIg5dgAk0oD0o9xo8bpc9knonUf</a></p><p>对角，</p><p>上下三角</p><p>Li 7.5<br>例如时间项离散就没有非对角阵元素，扩散项离散则有非对角阵<br>元素）。具体的项的离散后的非对角阵元素位置，由网格直接确定</p><h3 id="没看"><a href="#没看" class="headerlink" title="没看"></a>没看</h3><p>OpenFOAM的fvVectorMatrix——ldu矩阵学习（一）<br><a href="https://blog.csdn.net/weixin_39124457/article/details/123879051">https://blog.csdn.net/weixin_39124457/article/details/123879051</a></p><p>翻译】OpenFOAM中的空间离散化与矩阵系数<br><a href="https://zhuanlan.zhihu.com/p/32940120">https://zhuanlan.zhihu.com/p/32940120</a></p><p><img src="/2023/01/07/OpenFOAM-Matrix/Matrix.png" alt="fi"></p><p>Eqn.solve()</p><p>&#x3D; fvOptions(T) S </p><p>&#x2F;home&#x2F;shuoxing&#x2F;OpenFOAM&#x2F;OpenFOAM-7&#x2F;src&#x2F;OpenFOAM&#x2F;matrices&#x2F;lduMatrix&#x2F;lduMatrix&#x2F;lduMatrix.C</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">lower()</span><br><span class="line">diag()</span><br><span class="line">upper()</span><br></pre></td></tr></table></figure><p>lduAddressing<br>The Finite Volume Method in Computational Fluid Dynamics: An Advanced Introduction with OpenFOAM® and Matlab 7.2.4</p><p><a href="https://blog.csdn.net/weixin_42849849/article/details/125425068">https://blog.csdn.net/weixin_42849849/article/details/125425068</a></p><p>OpenFOAM矩阵组装的系统介绍(全)<br><a href="https://zhuanlan.zhihu.com/p/366736087">https://zhuanlan.zhihu.com/p/366736087</a></p><h3 id="矩阵建立"><a href="#矩阵建立" class="headerlink" title="矩阵建立"></a>矩阵建立</h3><p>src&#x2F;finiteVolume&#x2F;finiteVolume&#x2F;convectionSchemes&#x2F;gaussConvectionScheme&#x2F;gaussConvectionScheme.C</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fvm.lower() = -weights.primitiveField()*faceFlux.primitiveField();</span><br><span class="line">fvm.upper() = fvm.lower() + faceFlux.primitiveField();</span><br></pre></td></tr></table></figure><p>7.5 OPENFOAM 中的稀疏线性系统求解器</p><h3 id="矩阵求解"><a href="#矩阵求解" class="headerlink" title="矩阵求解"></a>矩阵求解</h3><p>src&#x2F;OpenFOAM&#x2F;lnInclude&#x2F;GaussSeidelSmoother.C<br>Foam::GaussSeidelSmoother</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;矩阵，对流扩散方程&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://q8frym1nsp.feishu.cn/docx/FIg5dgAk0oD0o9xo8bpc9knonUf&quot;&gt;https://q8frym1nsp.feishu.cn/docx/FIg5dgAk0oD0o9</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM laplacian</title>
+    <link href="https://na-an.github.io/2023/01/07/OpenFOAM-laplacian/"/>
+    <id>https://na-an.github.io/2023/01/07/OpenFOAM-laplacian/</id>
+    <published>2023-01-07T03:54:57.000Z</published>
+    <updated>2023-01-12T14:35:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.openfoam.com/documentation/guides/latest/doc/guide-schemes-laplacian.html">https://www.openfoam.com/documentation/guides/latest/doc/guide-schemes-laplacian.html</a></p><h3 id="带看"><a href="#带看" class="headerlink" title="带看"></a>带看</h3><p>OpenFOAM中laplacian项离散格式解码<br><a href="https://zhuanlan.zhihu.com/p/25337924">https://zhuanlan.zhihu.com/p/25337924</a><br>OpenFOAM 中的有限体积离散<br><a href="https://marinecfd.xyz/post/openfoam-finite-volume-discretization/">https://marinecfd.xyz/post/openfoam-finite-volume-discretization/</a></p><p>7.10.1 laplacian(ϕ) &#x3D; div(grad(ϕ))?</p><p>fvc :: laplacian (psi)</p><p>fvc :: div(fvc :: grad(psi))</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">laplacianSchemes</span><br><span class="line">&#123;</span><br><span class="line">    default         none;</span><br><span class="line">    laplacian(gamma,phi) Gauss &lt;interpolation scheme&gt; &lt;snGrad scheme&gt;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>openfoam.com&#x2F;documentation&#x2F;guides&#x2F;latest&#x2F;doc&#x2F;guide-schemes-sngrad.html</p><p>Surface-normal gradient schemes</p><p><a href="https://www.youtube.com/watch?v=JlB6y8NSI20">https://www.youtube.com/watch?v=JlB6y8NSI20</a><br><a href="https://forum.cfdac.com/t/topic/94">https://forum.cfdac.com/t/topic/94</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.openfoam.com/documentation/guides/latest/doc/guide-schemes-laplacian.html&quot;&gt;https://www.openfoam.com/documentation/gu</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM assignment</title>
+    <link href="https://na-an.github.io/2023/01/06/OpenFOAM-assignment/"/>
+    <id>https://na-an.github.io/2023/01/06/OpenFOAM-assignment/</id>
+    <published>2023-01-06T10:49:45.000Z</published>
+    <updated>2023-01-06T11:12:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>赋值</p><h3 id="括号赋值"><a href="#括号赋值" class="headerlink" title="括号赋值"></a>括号赋值</h3><p>src&#x2F;transportModels&#x2F;interfaceProperties&#x2F;interfaceProperties.C</p><pre><code>// Cell gradient of alphaconst volVectorField gradAlpha(fvc::grad(alpha1_, &quot;nHat&quot;));// Interpolated face-gradient of alphasurfaceVectorField gradAlphaf(fvc::interpolate(gradAlpha));</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;赋值&lt;/p&gt;
+&lt;h3 id=&quot;括号赋值&quot;&gt;&lt;a href=&quot;#括号赋值&quot; class=&quot;headerlink&quot; title=&quot;括号赋值&quot;&gt;&lt;/a&gt;括号赋值&lt;/h3&gt;&lt;p&gt;src&amp;#x2F;transportModels&amp;#x2F;interfaceProperties&amp;#x</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM namespaces</title>
+    <link href="https://na-an.github.io/2023/01/05/OpenFOAM-namespaces/"/>
+    <id>https://na-an.github.io/2023/01/05/OpenFOAM-namespaces/</id>
+    <published>2023-01-05T14:47:31.000Z</published>
+    <updated>2023-01-05T14:49:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>src&#x2F;transportModels&#x2F;interfaceProperties&#x2F;interfaceProperties.C</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Foam::tmp&lt;Foam::surfaceScalarField&gt;</span><br><span class="line">Foam::interfaceProperties::surfaceTensionForce() const</span><br><span class="line">&#123;</span><br><span class="line">    return fvc::interpolate(sigmaK())*fvc::snGrad(alpha1_);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Foam</p><p>fvc</p><p>fvm</p><p>fvc::div<br>fvm::div</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;src&amp;#x2F;transportModels&amp;#x2F;interfaceProperties&amp;#x2F;interfaceProperties.C&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM surfaceTension</title>
+    <link href="https://na-an.github.io/2023/01/05/OpenFOAM-surfaceTension/"/>
+    <id>https://na-an.github.io/2023/01/05/OpenFOAM-surfaceTension/</id>
+    <published>2023-01-05T14:27:30.000Z</published>
+    <updated>2023-01-06T14:23:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>表面张力是面力，不是体积力<br><a href="https://www.cfd-online.com/Forums/openfoam-solving/60581-surface-tension-force.html">https://www.cfd-online.com/Forums/openfoam-solving/60581-surface-tension-force.html</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">immiscibleIncompressibleTwoPhaseMixture <span class="title">mixture</span><span class="params">(U, phi)</span></span>;</span><br><span class="line"></span><br><span class="line">fvc::<span class="built_in">reconstruct</span>((mixture.<span class="built_in">surfaceTensionForce</span>()) * mesh.<span class="built_in">magSf</span>())</span><br></pre></td></tr></table></figure><p>src&#x2F;transportModels&#x2F;immiscibleIncompressibleTwoPhaseMixture&#x2F;immiscibleIncompressibleTwoPhaseMixture.H</p><p>类<br>Class<br>Foam::immiscibleIncompressibleTwoPhaseMixture</p><p>An immiscible incompressible two-phase mixture transport model</p><p>Constructors<br>构造</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">immiscibleIncompressibleTwoPhaseMixture</span></span><br><span class="line">:</span><br><span class="line">    <span class="keyword">public</span> incompressibleTwoPhaseMixture,</span><br><span class="line">    <span class="keyword">public</span> interfaceProperties</span><br><span class="line">&#123; <span class="comment">/*...*/</span> &#125;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><figcaption><span>immiscibleIncompressibleTwoPhaseMixture.C</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Foam::immiscibleIncompressibleTwoPhaseMixture::</span><br><span class="line">immiscibleIncompressibleTwoPhaseMixture</span><br><span class="line">(</span><br><span class="line">    const volVectorField&amp; U,</span><br><span class="line">    const surfaceScalarField&amp; phi</span><br><span class="line">)</span><br><span class="line">:</span><br><span class="line">    incompressibleTwoPhaseMixture(U, phi),</span><br><span class="line">    interfaceProperties(alpha1(), U, *this)</span><br><span class="line">&#123;&#125;</span><br></pre></td></tr></table></figure><p>执行<br>incompressibleTwoPhaseMixture(U, phi),<br>interfaceProperties(alpha1(), U, *this)</p><p>mixture可以访问incompressibleTwoPhaseMixture 和 interfaceProperties</p><p>mixture.surfaceTensionForce()</p><p>修正动态接触角的 alpha 边界条件。<br>计算界面曲率</p><p>src&#x2F;transportModels&#x2F;interfaceProperties&#x2F;interfaceProperties.C</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Foam::tmp&lt;Foam::surfaceScalarField&gt;</span><br><span class="line">Foam::interfaceProperties::surfaceTensionForce() const</span><br><span class="line">&#123;</span><br><span class="line">    return fvc::interpolate(sigmaK())*fvc::snGrad(alpha1_);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>结构：classTest2 class namespaces</p><p>fvc::interpolate(sigmaK()) * fvc::snGrad(alpha1_)<br>没有除去模？<br>计算面</p><p>interpolate() 给patch补丁上的向量。体心向量变成面<br>把volMesh变成surfaceMesh<br>将体心场插值计算面心场<br>返回具有显式校正的给定单元格字段的面插值</p><p>sigma()*K_</p><p>volScalarField K_;</p><p>构造函数</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Foam::interfaceProperties::<span class="built_in">interfaceProperties</span>(<span class="comment">/*...*/</span>)</span><br><span class="line">: <span class="comment">/*...*/</span></span><br><span class="line">&#123;<span class="built_in">calculateK</span>()&#125;</span><br></pre></td></tr></table></figure><p>calculateK()<br>Re-calculate the interface curvature</p><p><a href="https://www.cfd-online.com/Forums/openfoam-programming-development/159243-plotting-surface-tension-force-interfoam.html">https://www.cfd-online.com/Forums/openfoam-programming-development/159243-plotting-surface-tension-force-interfoam.html</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;表面张力是面力，不是体积力&lt;br&gt;&lt;a href=&quot;https://www.cfd-online.com/Forums/openfoam-solving/60581-surface-tension-force.html&quot;&gt;https://www.cfd-online.com</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>doxygen</title>
+    <link href="https://na-an.github.io/2023/01/05/doxygen/"/>
+    <id>https://na-an.github.io/2023/01/05/doxygen/</id>
+    <published>2023-01-05T03:05:32.000Z</published>
+    <updated>2023-01-05T03:18:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://cpp.openfoam.org/v7/graph_legend.html">https://cpp.openfoam.org/v7/graph_legend.html</a></p><p><a href="https://blog.csdn.net/benkaoya/article/details/79763668">https://blog.csdn.net/benkaoya/article/details/79763668</a></p><p><a href="https://blog.csdn.net/xiamentingtao/article/details/49722007">https://blog.csdn.net/xiamentingtao/article/details/49722007</a></p><p><a href="https://developer.aliyun.com/article/227074">https://developer.aliyun.com/article/227074</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://cpp.openfoam.org/v7/graph_legend.html&quot;&gt;https://cpp.openfoam.org/v7/graph_legend.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.cs</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM phi</title>
+    <link href="https://na-an.github.io/2023/01/04/OpenFOAM-phi/"/>
+    <id>https://na-an.github.io/2023/01/04/OpenFOAM-phi/</id>
+    <published>2023-01-04T13:28:31.000Z</published>
+    <updated>2023-01-04T13:55:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.cfd-online.com/Forums/openfoam-solving/175391-what-does-fvc-interpolate-u-mesh-sf-stand.html">https://www.cfd-online.com/Forums/openfoam-solving/175391-what-does-fvc-interpolate-u-mesh-sf-stand.html</a></p><p><a href="https://www.cfd-china.com/topic/4566/%E6%9E%84%E9%80%A0%E9%80%9A%E9%87%8F-phi-%E6%96%B9%E6%B3%95%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB">https://www.cfd-china.com/topic/4566/%E6%9E%84%E9%80%A0%E9%80%9A%E9%87%8F-phi-%E6%96%B9%E6%B3%95%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB</a></p><p>通量</p><p>单元格之间面上的值，一个单元格到另一个单元格的流量</p><p>可以采用不同的方法计算通量</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">surfaceScalarField <span class="title">phi</span></span></span><br><span class="line"><span class="function"><span class="params">(</span></span></span><br><span class="line"><span class="params"><span class="function">    IOobject</span></span></span><br><span class="line"><span class="params"><span class="function">    (</span></span></span><br><span class="line"><span class="params"><span class="function">        <span class="string">&quot;phi&quot;</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">        runTime.timeName(),</span></span></span><br><span class="line"><span class="params"><span class="function">        mesh,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::NO_READ,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::AUTO_WRITE</span></span></span><br><span class="line"><span class="params"><span class="function">    ),</span></span></span><br><span class="line"><span class="params"><span class="function">    fvc::flux(U)</span></span></span><br><span class="line"><span class="params"><span class="function">)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function">surfaceScalarField <span class="title">phi</span></span></span><br><span class="line"><span class="function"><span class="params">(</span></span></span><br><span class="line"><span class="params"><span class="function">    IOobject</span></span></span><br><span class="line"><span class="params"><span class="function">    (</span></span></span><br><span class="line"><span class="params"><span class="function">        <span class="string">&quot;phi&quot;</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">        runTime.timeName(),</span></span></span><br><span class="line"><span class="params"><span class="function">        mesh,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::NO_READ,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::AUTO_WRITE</span></span></span><br><span class="line"><span class="params"><span class="function">    ),</span></span></span><br><span class="line"><span class="params"><span class="function">    mesh,</span></span></span><br><span class="line"><span class="params"><span class="function">    dimensionedScalar(dimArea*dimVelocity, <span class="number">0</span>)</span></span></span><br><span class="line"><span class="params"><span class="function">)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// applications/solvers/incompressible/adjointShapeOptimizationFoam/createPhia.H</span></span><br><span class="line"><span class="function">surfaceScalarField <span class="title">phia</span></span></span><br><span class="line"><span class="function"><span class="params">(</span></span></span><br><span class="line"><span class="params"><span class="function">    IOobject</span></span></span><br><span class="line"><span class="params"><span class="function">    (</span></span></span><br><span class="line"><span class="params"><span class="function">        <span class="string">&quot;phia&quot;</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">        runTime.timeName(),</span></span></span><br><span class="line"><span class="params"><span class="function">        mesh,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::READ_IF_PRESENT,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::AUTO_WRITE</span></span></span><br><span class="line"><span class="params"><span class="function">    ),</span></span></span><br><span class="line"><span class="params"><span class="function">    linearInterpolate(Ua) &amp; mesh.Sf()</span></span></span><br><span class="line"><span class="params"><span class="function">)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function">surfaceScalarField <span class="title">phi</span></span></span><br><span class="line"><span class="function"><span class="params">(</span></span></span><br><span class="line"><span class="params"><span class="function">    IOobject</span></span></span><br><span class="line"><span class="params"><span class="function">    (</span></span></span><br><span class="line"><span class="params"><span class="function">        <span class="string">&quot;phi&quot;</span>,</span></span></span><br><span class="line"><span class="params"><span class="function">        runTime.timeName(),</span></span></span><br><span class="line"><span class="params"><span class="function">        mesh,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::NO_READ,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::NO_WRITE</span></span></span><br><span class="line"><span class="params"><span class="function">    ),</span></span></span><br><span class="line"><span class="params"><span class="function">    mesh,</span></span></span><br><span class="line"><span class="params"><span class="function">    dimensionedScalar(mesh.Sf().dimensions()*U.dimensions(), <span class="number">0</span>)</span></span></span><br><span class="line"><span class="params"><span class="function">)</span></span>;</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>interpolate(U) 给patch补丁上的速度。 surfaceScalarField mesh.Sf() 是表面向量（面的面积和法线）。&amp; 是标量积。 因此，u 和表面矢量的标量积就是通量。</p><p>fvc::flux(U)可以指定格式<br>linearInterpolate(U) &amp; mesh.Sf()已经指定格式</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.cfd-online.com/Forums/openfoam-solving/175391-what-does-fvc-interpolate-u-mesh-sf-stand.html&quot;&gt;https://www.cfd-online</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OpenFOAM mesh</title>
+    <link href="https://na-an.github.io/2023/01/04/OpenFOAM-mesh/"/>
+    <id>https://na-an.github.io/2023/01/04/OpenFOAM-mesh/</id>
+    <published>2023-01-04T11:08:24.000Z</published>
+    <updated>2023-01-16T13:36:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">fvMesh <span class="title">mesh</span></span></span><br><span class="line"><span class="function"><span class="params">(</span></span></span><br><span class="line"><span class="params"><span class="function">    IOobject</span></span></span><br><span class="line"><span class="params"><span class="function">    (</span></span></span><br><span class="line"><span class="params"><span class="function">        fvMesh::defaultRegion,</span></span></span><br><span class="line"><span class="params"><span class="function">        runTime.timeName(),</span></span></span><br><span class="line"><span class="params"><span class="function">        runTime,</span></span></span><br><span class="line"><span class="params"><span class="function">        IOobject::MUST_READ</span></span></span><br><span class="line"><span class="params"><span class="function">    )</span></span></span><br><span class="line"><span class="params"><span class="function">)</span></span>;</span><br><span class="line"></span><br><span class="line">Info&lt;&lt; <span class="string">&quot;mesh.C()&quot;</span> &lt;&lt; endl &lt;&lt; mesh.<span class="built_in">C</span>() &lt;&lt; endl;</span><br><span class="line">Info&lt;&lt; <span class="string">&quot;mesh.V()&quot;</span> &lt;&lt; endl &lt;&lt; mesh.<span class="built_in">V</span>() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">surfaceVectorField Cf = mesh.<span class="built_in">Cf</span>();</span><br><span class="line">Info&lt;&lt; <span class="string">&quot;Cf&quot;</span> &lt;&lt; endl &lt;&lt; Cf &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">vectorField Sf = mesh.<span class="built_in">Sf</span>();</span><br><span class="line">Info&lt;&lt; <span class="string">&quot;Sf&quot;</span> &lt;&lt; endl &lt;&lt; Sf &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">surfaceScalarField magSf = mesh.<span class="built_in">magSf</span>();</span><br><span class="line">Info&lt;&lt; <span class="string">&quot;magSf&quot;</span> &lt;&lt; endl &lt;&lt; magSf &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p><a href="https://www.cfd-online.com/Forums/openfoam/95858-owner-neighbor.html">https://www.cfd-online.com/Forums/openfoam/95858-owner-neighbor.html</a></p><p>const labelUList&amp; owner &#x3D; mesh.owner();<br>const labelUList&amp; neighbour &#x3D; mesh.neighbour();</p><p>Each internal face in a mesh has an “owner” and a “neighbour” cell. These are the two cells it borders. There’s nothing special about this, and if you are talking only about geometry, we don’t need to tell them apart… but since the algorithms need consistent directions for fluxes, we must distinguish them. A positive flux goes from “owner” to “neighbour”.</p><p>面属于的单元格和相邻的单元格</p><p>mesh.owner() and mesh.neighbour() return only the internal faces’ owners and neighbours.<br>内部面的owner和neighbour</p><p><a href="https://openfoamwiki.net/index.php/Write_OpenFOAM_meshes">https://openfoamwiki.net/index.php/Write_OpenFOAM_meshes</a></p><p>renumberMesh<br>applications&#x2F;utilities&#x2F;mesh&#x2F;manipulation&#x2F;renumberMesh&#x2F;renumberMesh.C<br><a href="https://github.com/smenon">https://github.com/smenon</a></p><p><a href="https://zhulianhua.github.io/2016/10/06/of-fvMesh/">https://zhulianhua.github.io/2016/10/06/of-fvMesh/</a></p><p><img src="/2023/01/04/OpenFOAM-mesh/fvMesh.png" alt="fvMesh"></p><p>openfoam寻找与某一边界相邻的一层网格<br><a href="https://blog.csdn.net/zhaopeng162/article/details/100572546">https://blog.csdn.net/zhaopeng162/article/details/100572546</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const polyPatch&amp; cPatch = mesh.boundaryMesh()[patchID];</span><br></pre></td></tr></table></figure><p>OpenFOAM grad</p><pre><code>const labelUList&amp; owner = mesh.owner(); // 内部面 labelUListconst labelUList&amp; neighbour = mesh.neighbour();</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

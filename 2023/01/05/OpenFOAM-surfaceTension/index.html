@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha256-Z1K5uhUaJXA7Ll0XrZ/0JhX4lAtZFpT6jkKrEDT0drU=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"na-an.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":"yes","style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="表面张力是面力，不是体积力https:&#x2F;&#x2F;www.cfd-online.com&#x2F;Forums&#x2F;openfoam-solving&#x2F;60581-surface-tension-force.html 123immiscibleIncompressibleTwoPhaseMixture mixture(U, phi);fvc::reconstruct((mixture.surfaceTensionForc">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenFOAM surfaceTension">
+<meta property="og:url" content="https://na-an.github.io/2023/01/05/OpenFOAM-surfaceTension/index.html">
+<meta property="og:site_name" content="Na Jian">
+<meta property="og:description" content="表面张力是面力，不是体积力https:&#x2F;&#x2F;www.cfd-online.com&#x2F;Forums&#x2F;openfoam-solving&#x2F;60581-surface-tension-force.html 123immiscibleIncompressibleTwoPhaseMixture mixture(U, phi);fvc::reconstruct((mixture.surfaceTensionForc">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-01-05T14:27:30.000Z">
+<meta property="article:modified_time" content="2023-01-06T14:23:10.000Z">
+<meta property="article:author" content="Na Jian">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://na-an.github.io/2023/01/05/OpenFOAM-surfaceTension/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://na-an.github.io/2023/01/05/OpenFOAM-surfaceTension/","path":"2023/01/05/OpenFOAM-surfaceTension/","title":"OpenFOAM surfaceTension"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>OpenFOAM surfaceTension | Na Jian</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?3f0996fee576c98ecae46401736ea3b5"></script>
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Na Jian" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Na Jian</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Na Jian</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">40</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://na-an.github.io/2023/01/05/OpenFOAM-surfaceTension/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Na Jian">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Na Jian">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="OpenFOAM surfaceTension | Na Jian">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          OpenFOAM surfaceTension
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2023-01-05 22:27:30" itemprop="dateCreated datePublished" datetime="2023-01-05T22:27:30+08:00">2023-01-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-01-06 22:23:10" itemprop="dateModified" datetime="2023-01-06T22:23:10+08:00">2023-01-06</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">Views: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>表面张力是面力，不是体积力<br><a target="_blank" rel="noopener" href="https://www.cfd-online.com/Forums/openfoam-solving/60581-surface-tension-force.html">https://www.cfd-online.com/Forums/openfoam-solving/60581-surface-tension-force.html</a></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">immiscibleIncompressibleTwoPhaseMixture <span class="title">mixture</span><span class="params">(U, phi)</span></span>;</span><br><span class="line"></span><br><span class="line">fvc::<span class="built_in">reconstruct</span>((mixture.<span class="built_in">surfaceTensionForce</span>()) * mesh.<span class="built_in">magSf</span>())</span><br></pre></td></tr></table></figure>
+
+<p>src&#x2F;transportModels&#x2F;immiscibleIncompressibleTwoPhaseMixture&#x2F;immiscibleIncompressibleTwoPhaseMixture.H</p>
+<p>类<br>Class<br>Foam::immiscibleIncompressibleTwoPhaseMixture</p>
+<p>An immiscible incompressible two-phase mixture transport model</p>
+<p>Constructors<br>构造</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">immiscibleIncompressibleTwoPhaseMixture</span></span><br><span class="line">:</span><br><span class="line">    <span class="keyword">public</span> incompressibleTwoPhaseMixture,</span><br><span class="line">    <span class="keyword">public</span> interfaceProperties</span><br><span class="line">&#123; <span class="comment">/*...*/</span> &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><figcaption><span>immiscibleIncompressibleTwoPhaseMixture.C</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Foam::immiscibleIncompressibleTwoPhaseMixture::</span><br><span class="line">immiscibleIncompressibleTwoPhaseMixture</span><br><span class="line">(</span><br><span class="line">    const volVectorField&amp; U,</span><br><span class="line">    const surfaceScalarField&amp; phi</span><br><span class="line">)</span><br><span class="line">:</span><br><span class="line">    incompressibleTwoPhaseMixture(U, phi),</span><br><span class="line">    interfaceProperties(alpha1(), U, *this)</span><br><span class="line">&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<p>执行<br>incompressibleTwoPhaseMixture(U, phi),<br>interfaceProperties(alpha1(), U, *this)</p>
+<p>mixture可以访问incompressibleTwoPhaseMixture 和 interfaceProperties</p>
+<p>mixture.surfaceTensionForce()</p>
+<p>修正动态接触角的 alpha 边界条件。<br>计算界面曲率</p>
+<p>src&#x2F;transportModels&#x2F;interfaceProperties&#x2F;interfaceProperties.C</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Foam::tmp&lt;Foam::surfaceScalarField&gt;</span><br><span class="line">Foam::interfaceProperties::surfaceTensionForce() const</span><br><span class="line">&#123;</span><br><span class="line">    return fvc::interpolate(sigmaK())*fvc::snGrad(alpha1_);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>结构：classTest2 class namespaces</p>
+<p>fvc::interpolate(sigmaK()) * fvc::snGrad(alpha1_)<br>没有除去模？<br>计算面</p>
+<p>interpolate() 给patch补丁上的向量。体心向量变成面<br>把volMesh变成surfaceMesh<br>将体心场插值计算面心场<br>返回具有显式校正的给定单元格字段的面插值</p>
+<p>sigma()*K_</p>
+<p>volScalarField K_;</p>
+<p>构造函数</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Foam::interfaceProperties::<span class="built_in">interfaceProperties</span>(<span class="comment">/*...*/</span>)</span><br><span class="line">: <span class="comment">/*...*/</span></span><br><span class="line">&#123;<span class="built_in">calculateK</span>()&#125;</span><br></pre></td></tr></table></figure>
+
+<p>calculateK()<br>Re-calculate the interface curvature</p>
+<p><a target="_blank" rel="noopener" href="https://www.cfd-online.com/Forums/openfoam-programming-development/159243-plotting-surface-tension-force-interfoam.html">https://www.cfd-online.com/Forums/openfoam-programming-development/159243-plotting-surface-tension-force-interfoam.html</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/01/05/doxygen/" rel="prev" title="doxygen">
+                  <i class="fa fa-chevron-left"></i> doxygen
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2023/01/05/OpenFOAM-namespaces/" rel="next" title="OpenFOAM namespaces">
+                  OpenFOAM namespaces <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Na Jian</span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="Back to top">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
